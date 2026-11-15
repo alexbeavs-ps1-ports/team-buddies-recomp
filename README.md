@@ -71,18 +71,12 @@ BIOS/ROM/save plumbing so you are not stuck repeating each game’s wizard by ha
 
 ## Status
 
-Version 0.1.0 release candidate.
+Latest release: v0.1.1. The update to pin I 0.1.23 is held back until a play check of the new GPU drawing time setting passes.
 
-- Windows: the exact setup package passed automated clean-extract setup,
-  generation, compilation, and a headless start check on the pinned framework.
-- Windows play testing on the private build this kit derives from: the first build stopped at loading after the intro movie. The video-interrupt wait correction is in the pinned framework and was accepted on a test candidate.
-- Linux and macOS: packages are built by CI from the same recipe; native setup
-  and gameplay have not been verified.
+- Packages for Windows x64, Linux x64, macOS Apple Silicon and macOS Intel passed the CI build and package checks.
+- Not claimed: full-game completion, audio fidelity or multiplayer. Setup and gameplay reports from Linux, macOS and Steam Deck are welcome.
 
-Full-game completion, audio fidelity, and multiplayer are not claimed. Runtime
-snapshots from older builds are not qualified compatible; ordinary memory-card
-saves are preserved across updates.
-
+Known issues for the current version are in its [release notes](https://github.com/alexbeavs-ps1-ports/team-buddies-recomp/releases/tag/v0.1.1).
 ## Known issues
 
 - After the opening-freeze correction, automatic BATTLE HILL loading after the story movie still showed repeated video waits during diagnosis. Gameplay beyond the menus is unqualified.
