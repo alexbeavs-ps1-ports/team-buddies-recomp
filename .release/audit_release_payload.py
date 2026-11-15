@@ -41,7 +41,12 @@ PRIVATE_FIXTURE_ALLOWLIST = {
     "psxrecomp/recompiler/lib/ELFIO/tests/elf_examples/read_write_arm_elf32_input",
     "psxrecomp/recompiler/lib/toml11/tests/test_lex_string.cpp",
     "psxrecomp/recompiler/lib/toml11/tests/test_parse_string.cpp",
+    "psxrecomp/runtime/src/start_refusal.c",
+    "psxrecomp/runtime/tests/test_host_overlay.c",
+    "psxrecomp/runtime/tests/test_setup_private_path_gate.py",
+    "psxrecomp/runtime/tests/test_start_refusal.c",
     "psxrecomp/tools/compile_overlays.py",
+    "psxrecomp/tools/tests/test_setup_host_cli_text.py",
     "recomp-ui/src/third_party/imgui/imgui.cpp",
     "recomp-ui/src/third_party/tinyfiledialogs.h",
 }
