@@ -25,7 +25,7 @@ license = "See the pinned dependency license; this binding does not approve comm
 
 [release_binding]
 source_commit = "5420458ad90a81ca73d8128ebe719d8e1d3e9e2b"
-current_title_version = "0.1.0"
+current_title_version = "0.1.1"
 current_public_topology = "owned-input-kit-only"
 current_public_release = "none"
 current_package_platform = "none-promoted"
@@ -47,11 +47,11 @@ traces = "out/traces"
 packages = "dist"
 
 [release]
-version = "0.1.0"
+version = "0.1.1"
 platform = "multi-platform"
 supported_platforms = ["windows-x64", "linux-x64", "macos-arm64", "macos-x64"]
 graduation_state = "bootstrap_verified"
-public_package_status = "not-published"
+public_package_status = "v0.1.1_pin_i_0.1.23_update_candidate"
 
 [bios]
 required = true
